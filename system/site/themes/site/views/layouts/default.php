@@ -7,13 +7,7 @@
 	<!-- Begin pageWrapper -->
 	<div id="pageWrapper">
 		<?php file_partial('header'); ?>
-		<!-- Begin nav -->
-		<nav>
-			<ul id="head-nav">
-				&nbsp;
-			</ul>
-		</nav>
-		<!-- End nav -->
+		<?php file_partial('navigation'); ?>
 		<!-- Begin contentWrapper -->
 		<div id="contentWrapper">
 			<?php file_partial('content'); ?>

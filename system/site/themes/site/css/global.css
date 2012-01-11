@@ -6,16 +6,18 @@ body { background-color: #e1e1e1; overflow-x: hidden; }
 #contentWrapper { background: transparent url(../img/content-bg.jpg) no-repeat top; width: 1000px; min-height: 500px; margin: 0 auto; }
 
 /* Header */
-#pageWrapper > header { width: 1000px; height: 60px; margin: 0 auto; padding: 0; }
+#pageWrapper > header { width: 1000px; height: 85px; margin: 0 auto; padding: 0; }
 
 /* Logo */
-header #logo { margin: 5px 0 0 0; float: left; }
+header #logo { margin: 0; float: left; }
 header #logo h1 { font-size: 32px; }
 header #logo h1 a { color: #444444; }
 header #logo h2 { font-size: 12px; color: #59626e; letter-spacing: 0.5px; float: right; }
 
+#header-right {float: right;}
+
 /* User meta */
-header #user-meta { font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #7B818C; letter-spacing: 0.5px; line-height: 1.5em; margin: 5px 0 0 0; float: right; }
+header #user-meta { font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #7B818C; letter-spacing: 0.5px; line-height: 1.5em; margin: 0;}
 header #user-meta a, #header #user-meta a:link { color: #7b818c;}
 header #user-meta a:hover { color: #ff6900;}
 header #user-meta .nav-splitter { color: #060a14; text-shadow: 1px 1px 0px #3e444d; }
@@ -23,21 +25,27 @@ header #user-meta .avatar-name { display: inline-block; vertical-align: middle; 
 header #user-meta .avatar-name img { display: inline-block; vertical-align: middle; margin-right: 3px; border: 1px solid #7b818c; }
 header #user-meta .avatar-name a:hover img { border: 1px solid #ff6900; }
 
-header #user-meta form {  margin: 0; padding: 0; float: right; }
+header #user-meta form {  margin: 0; padding: 0;}
 header #user-meta form ul li { margin: 0 0 0 5px; list-style: none; float: left; display: inline;}
 header #user-meta form ul li input { font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; color: #ffffff; font-size: 11px; letter-spacing: 0.5px; background-color: #202328; border: 1px solid #2e3138; border-radius: 3px; -o-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 7px 0 7px 6px; }
 header #user-meta form ul li.form-buttons { margin: 4px 0px 0px 10px; float: right; }
 header #user-meta form ul li input[type=submit] { padding: 0; font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; font-size: 11px; color: #ff6900; background: none; border: none; cursor: pointer; outline: none; }
 header #user-meta form ul li input[type=submit]:hover { color: #060a14;}
 
+header #header-actions { font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #7B818C; letter-spacing: 0.5px; line-height: 1.5em; margin: 0; float: right; }
+header #header-actions ul li { margin: 0 0 0 20px; float: left; display: inline;}
+
 /* Header Menu */
-nav ul#head-nav { width: 1000px; height: 35px; padding: 14px 0 2px 0; margin: 0 auto; }
+nav ul#head-nav { width: 1000px; height: 25px; padding: 5px 0 5px 0; margin: 0 auto; border-top: 1px solid #efefef;}
 nav ul#head-nav ul { height: 0; left: 0; position: absolute; top: 18px; padding-top: 20px; visibility: hidden; width: 149px; z-index: 1000; }
 nav ul#head-nav li { position: relative; list-style: none; margin: 0 35px 0 0; padding: 0; float: left; }
 nav ul#head-nav li a, ul#head-nav li a:visited{ font-size: 12px; font-weight: bold; color: #7d7d7d; letter-spacing: 0.5px; text-shadow: 1px 1px 0px #ffffff; }
 nav ul#head-nav li a:hover, ul#head-nav a:visited:hover { color: #ff6900; text-decoration: none; }
 nav ul#head-nav li a:active, ul#head-nav li a:visited:active { color: #ffffff; }
 nav ul#head-nav li.has_current > a { color: #4d4d4d; }
+
+nav ul#head-nav li#menu-search {float: right; margin-right:0;}
+nav ul#head-nav input[type=text] { font-family:  Tahoma, "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; color: #ffffff; font-size: 11px; letter-spacing: 0.5px; background-color: #202328; border: 1px solid #2e3138; border-radius: 3px; -o-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 5px 0 5px 6px; margin:0;}
 
 /* Header Menu second level */
 nav ul#head-nav li:hover ul { visibility: visible; }/*make 2 visible when hovering on 1*/
