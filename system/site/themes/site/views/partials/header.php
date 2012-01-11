@@ -3,7 +3,7 @@
 	<!-- Begin logo -->
 	<div id="logo">
 		<h1><?php echo anchor(site_url(), 'YPM', 'title="Home"');?></h1>
-		<h2 class="slogan">Your Directory Listings</h2>
+		<h2 class="slogan">Advertising & Business Listings</h2>
 	</div>
 	<!-- End logo -->
 
