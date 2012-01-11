@@ -19,22 +19,23 @@ class Pages extends Public_Controller
 	 */
 	public function index()
 	{
-		$this->_page();
+		$this->_home();
 	}
 
 	/**
-	 * Page method
+	 * home page method
 	 * @access public
 	 * @param array $url_segments The URL segments
 	 * @return void
 	 */
-	public function _page()
+	public function _home()
 	{
-		//$this->template->set_layout('default.html');
-
+		//helper to load partials
+		$this->load->helper('admin_theme');
+		
 		// Create page output
-		$this->template->title('Home Page');
+		$this->template->title('Home');
 
-		echo $this->template->build('pages/page', NULL, TRUE);
+		echo $this->template->build('pages/home', NULL, TRUE, FALSE);
 	}
 }
