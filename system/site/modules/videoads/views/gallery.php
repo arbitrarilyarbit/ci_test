@@ -1,1 +1,1 @@
-Video Gallery
+Video Ads Area

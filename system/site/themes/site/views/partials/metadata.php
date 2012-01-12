@@ -15,6 +15,7 @@
 
 <!-- Load jQuery Before Modules/Widgets -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script>window.jQuery || document.write("\x3Cscript src='<?php echo base_url(); ?>system/site/themes/site/js/jquery/jquery.min.js'>\x3C/script>")</script>
 <!-- End jquery -->
 
 <link rel="canonical" href="<?php echo site_url();?>" />
