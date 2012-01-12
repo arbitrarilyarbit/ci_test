@@ -12,6 +12,16 @@
 <!-- End footer -->
 <!-- Begin scripts -->
 <!-- Load JS files here -->
+<script src="<?php echo base_url(); ?>system/site/themes/site/js/jquery/jquery.lazyload.min.js"></script>
+<script>
+$(function() {
+	//Sidebar Standard Adv images lazy loading
+	$("img.ads").show().lazyload({
+		threshold:200,
+		effect:"fadeIn"
+	});
+});
+</script>
 <!-- End scripts -->
 <!-- Cufon
 {{ if theme:options:cufon_enabled == 'yes' and settings:theme_default:cufon_enabled }}
