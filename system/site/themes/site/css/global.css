@@ -136,7 +136,7 @@ aside #navigation ul li { list-style: none; padding: 0 0 15px 3px; }
 
 /* Bottom */
 #bottom { color: #7d7d7d; font-size: 14px; width: 100%; padding: 0 0 10px 0; float: left; }
-#bottom section { text-align: center; padding: 20px; background-color: #444; border: 1px solid #ffffff; color: #FF6900; font-size: 14px; min-height: 150px; }
+#bottom section { text-align: center; padding: 20px; border: 1px solid #ffffff; color: #FF6900; font-size: 14px; min-height: 150px; }
 
 /* Twitter widget */
 .widget ul.rss li { list-style:none; border-bottom: 1px solid #c9c9c9; padding: 10px 0 10px 0; }
