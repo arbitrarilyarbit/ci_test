@@ -1,5 +1,5 @@
 <aside>
-	<section class="post clearfix">
+	<section>
 		<?php echo Modules::run('ads'); ?>
 	</section>
 </aside>
