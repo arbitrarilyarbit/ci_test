@@ -1,0 +1,56 @@
+.categories ul {
+	margin-top:10px;
+}
+.categories ul li{
+	display:block;
+	width:188px;
+	height:60px;
+	float:left;
+	margin:0 2px 4px 2px;
+	text-align:center;
+	position:relative;
+}
+.categories ul li a{
+	padding:5px 2px;
+	display:block;
+	width:184px;
+	min-height:60px;
+	background-color:#eee;
+	transition:background-color .4s linear;
+	-o-transition:background-color .4s linear;
+	-moz-transition:background-color .4s linear;
+	-webkit-transition:background-color .4s linear;
+}
+.categories ul li a:hover{
+	background-color:#f7f7f7;
+	border-radius:4px;
+	transition:background-color .11s linear;
+	-o-transition:background-color .11s linear;
+	-moz-transition:background-color .11s linear;
+	-webkit-transition:background-color .11s linear;
+	box-shadow:0 2px 4px #cdcdcd;
+	-o-box-shadow:0 2px 4px #cdcdcd;
+	-moz-box-shadow:0 2px 4px #cdcdcd;
+	-webkit-box-shadow:0 2px 4px #cdcdcd;
+}
+.categories ul li h3{
+	font-size:13px;
+	font-weight:bold;
+	width:90%;
+	margin:5px 0 4px 5%;
+	transition:color .18s linear;
+	-o-transition:color .18s linear;
+	-moz-transition:color .18s linear;
+	-webkit-transition:color .18s linear;
+	padding: 0;
+}
+.categories ul li:hover h3{
+	color:#b41e21;
+}
+.categories ul li p{
+	font-size:11px;
+	width:90%;
+	margin-left:5%;
+	color:#999;
+	padding-bottom:5px;
+}

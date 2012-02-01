@@ -35,7 +35,13 @@ class Pages extends Public_Controller
 		
 		// Create page output
 		$this->template->title('Home');
+		
+		//get listing categories
+		$this->load->config('listings/listing-cats');
+		$data = array(
+			'cat_items'    =>  $this->config->item('ypmcats')
+		);
 
-		echo $this->template->build('pages/home', NULL, TRUE, FALSE);
+		echo $this->template->build('pages/home', $data, TRUE, FALSE);
 	}
 }
