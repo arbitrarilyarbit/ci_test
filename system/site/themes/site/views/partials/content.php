@@ -1,6 +1,5 @@
 <!-- Begin full width content -->
 <div id="content">
-	<?php file_partial('breadcrumbs'); ?>
 	<section class="post clearfix">
 		<?php echo $template['body']; ?>
 	</section>

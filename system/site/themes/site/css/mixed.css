@@ -1,3 +1,7 @@
+/* Begin: Page top Banner */
+#banner { width: 1000px; height: 150px; padding: 5px 0 5px 0; margin: 0 auto; border-top: 1px solid #efefef;}
+/* End: Page top Banner */
+
 /* Begin: Categories on Home Page */
 .categories ul {
 	margin-top:10px;
@@ -62,7 +66,7 @@
 }
 /* End: Categories on Home Page */
 
-/* Begin: Sign In Dropdown in Header */
+/* Begin: Sign In/Cart Dropdown in Header */
 #signin_menu, #cart_menu {
     -moz-border-radius-topleft:5px;
     -moz-border-radius-bottomleft:5px;
@@ -129,7 +133,7 @@
     font-weight:bold;
 }
 #cart_checkout {
-	margin:0 5px 0 10px;
+	margin:0 5px 0 5px;
 }
 #signin_submit::-moz-focus-inner {
 	padding:0;
@@ -139,7 +143,42 @@
     background-position:0 -5px;
     cursor:pointer;
 }
-/* End: Sign In Dropdown in Header */
+/* End: Sign In/Cart Dropdown in Header */
+
+/* Begin: Search box */
+#srch-box {
+	border: 1px solid #dedede;
+	padding: 2px;
+}
+#srch-box input, #srch-box select {
+	width: auto;
+}
+#srch-box select {
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	margin-right: 70%; 
+	border-radius: 3px; 
+	-o-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	padding: 1px 5px 4px 5px; 
+	font-family:  Arial, Tahoma, "Helvetica Neue", Helvetica, sans-serif; 
+	color: #4D4D4D;  
+	text-shadow: 0px 1px 0px #FBFBFB; 
+}
+#srch-box input[type="submit"] {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background:#39d /*url('images/bg-btn-blue.png') repeat-x scroll 0 0*/;
+    border:1px solid #39D;
+    color:#fff;
+    text-shadow:0 -1px 0 #39d;
+    padding:4px 10px 5px;
+    font-size:11px;
+    margin:0 5px 0 0;
+    font-weight:bold;
+}
+/* End: Search box */
 
 /* Begin: Alpha Listing */
 .alpha-filter {
@@ -151,3 +190,4 @@
 .alpha-filter a {
 	padding: 0 5px 0 5px;
 }
+/* End: Alpha Listing */

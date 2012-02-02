@@ -25,7 +25,6 @@ class Pages extends Public_Controller
 	/**
 	 * home page method
 	 * @access public
-	 * @param array $url_segments The URL segments
 	 * @return void
 	 */
 	public function _home()
@@ -41,7 +40,10 @@ class Pages extends Public_Controller
 		$data = array(
 			'cat_items'    =>  $this->config->item('ypmcats')
 		);
-
+		
+		//get search box
+		$data['searchbox'] = Modules::run('listings/searchlistings/searchbox');
+		
 		echo $this->template->build('pages/home', $data, TRUE, FALSE);
 	}
 }

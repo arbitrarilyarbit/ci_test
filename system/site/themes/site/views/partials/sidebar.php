@@ -1,5 +1,5 @@
 <aside>
 	<section>
-		<?php echo Modules::run('ads'); ?>
+		<?php echo modules::run('ads'); ?>
 	</section>
 </aside>
