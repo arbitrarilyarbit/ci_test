@@ -9,19 +9,30 @@
 			</div>
 			<!-- End logo -->
 
-			<div id="user-meta">
+			<div id="user-meta" class="cartin" style="position: relative;">
 				<img class="cart" src="<?php echo base_url();?>system/site/themes/site/img/location.png" width="19" height="31" />
 				<div class="go-cart">
 					<a href="#">Cart</a><br/>
 					<span class="cart-view">New Here? <a href="#">View Cart</a></span>
 				</div>
 				<div class="clr"></div>
+				
+				<!-- Cart drop down -->
+				<fieldset id="cart_menu">
+					<form method="post" id="cart" action="">
+						<p>
+							<a id="cart_continue" href="#">Continue Shopping</a>
+							<input id="cart_checkout" value="Checkout" type="submit">
+						</p>
+					</form>
+				</fieldset>
+				
 			</div>
          
-			<div id="user-meta" style="position: relative;">
+			<div id="user-meta" class="signin" style="position: relative;">
 				<img class="avatar" src="<?php echo base_url();?>system/site/themes/site/img/location.png" width="19" height="31" />
 				<div class="avatar-name">
-					<a href="#" class="signin">Sign In</a><br/>
+					<a href="#">Sign In</a><br/>
 					<span class="avatar-more">New Here? <a href="#">Register</a></span>
 				</div>
 				<div class="clr"></div>

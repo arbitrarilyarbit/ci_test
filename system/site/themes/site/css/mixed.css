@@ -4,8 +4,8 @@
 }
 .categories ul li{
 	display:block;
-	width:188px;
-	height:60px;
+	width:49%;
+	height:80px;
 	float:left;
 	margin:0 2px 4px 2px;
 	text-align:center;
@@ -14,8 +14,8 @@
 .categories ul li a{
 	padding:5px 2px;
 	display:block;
-	width:184px;
-	min-height:60px;
+	width:95%;
+	min-height:80px;
 	background-color:#eee;
 	transition:background-color .4s linear;
 	-o-transition:background-color .4s linear;
@@ -55,10 +55,15 @@
 	color:#999;
 	padding-bottom:5px;
 }
+.categories ul img {
+	float:left;
+	width: 75px;
+	height: 75px;
+}
 /* End: Categories on Home Page */
 
 /* Begin: Sign In Dropdown in Header */
-#signin_menu {
+#signin_menu, #cart_menu {
     -moz-border-radius-topleft:5px;
     -moz-border-radius-bottomleft:5px;
     -moz-border-radius-bottomright:5px;
@@ -81,7 +86,6 @@
     color:#ffffff;
     font-size:11px;
 }
-
 #signin_menu input[type=text], #signin_menu input[type=password] {
     display:block;
     -moz-border-radius:4px;
@@ -92,30 +96,30 @@
     padding:5px;
     width:203px;
 }
-#signin_menu p {
+#signin_menu p, #cart_menu p {
     margin:0;
     padding: 0 0 5px 0;
 }
-#signin_menu a {
+#signin_menu a, #cart_menu a {
     color:#39D;
 }
 #signin_menu label {
     font-weight:normal;
 }
-#signin_menu p.remember {
+#signin_menu p.remember, #cart_menu p {
     padding:10px 0;
 }
 #signin_menu p.forgot, #signin_menu p.complete {
     clear:both;
     margin:5px 0;
 }
-#signin_menu p a {
+#signin_menu p a, #cart_menu p a {
     color:#39D!important;
 }
-#signin_submit {
+#signin_submit, #cart_checkout {
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
-    background:#39d url('images/bg-btn-blue.png') repeat-x scroll 0 0;
+    background:#39d /*url('images/bg-btn-blue.png') repeat-x scroll 0 0*/;
     border:1px solid #39D;
     color:#fff;
     text-shadow:0 -1px 0 #39d;
@@ -123,6 +127,9 @@
     font-size:11px;
     margin:0 5px 0 0;
     font-weight:bold;
+}
+#cart_checkout {
+	margin:0 5px 0 10px;
 }
 #signin_submit::-moz-focus-inner {
 	padding:0;
