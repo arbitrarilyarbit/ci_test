@@ -1,10 +1,10 @@
 /* Let's begin! */
-body { background-color: #e1e1e1; overflow-x: hidden; }
+body { background-color: /*#e1e1e1*/#DDEEF6; overflow-x: hidden; }
 .clr { clear:both;}
 
 /* Wrappers */
 #pageWrapper { width: 100%; margin: 0 auto; }
-#contentWrapper { background: transparent url(../img/content-bg.jpg) no-repeat top; width: 1000px; min-height: 500px; margin: 0 auto; }
+#contentWrapper { /*background: transparent url(../img/content-bg.jpg) no-repeat top;*/ width: 1000px; min-height: 500px; margin: 0 auto; }
 
 /* Header */
 #pageWrapper > header { width: 100%; height: 85px; margin: 0 auto; padding: 0; }
