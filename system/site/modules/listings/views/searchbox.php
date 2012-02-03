@@ -1,4 +1,4 @@
-<form action="" method="get">
+<form action="<?php echo base_url();?>pages/listings/" method="get">
 <table style="margin: 0 auto;">
 	<tr>
 		<td><strong>Find:</strong></td>
@@ -7,25 +7,14 @@
 	</tr>
 	<tr>
 		<td><input type="text" value="" id="keyword" name="keyword"
-			class="text" /></td>
+			class="text" placeholder="enter keyword"/></td>
 		<td><select id="category" name="category" class="select">
 			<option value="-1">Please select a category</option>
 		</select></td>
 		<td><input type="text" value="" id="location" name="location"
-			class="text" /></td>
+			class="text" placeholder="country, zipcode, etc."/></td>
 		<td><input type="submit" id="submit_search" name="submit_search"
-			class="submit" value="Search" /></td>
-	</tr>
-	<tr>
-		<td valign="top" style="padding-bottom: 15px">
-		<p class="note">Keyword</p>
-		</td>
-		<td valign="top" style="padding-bottom: 15px">
-		<p class="note">Specific Category</p>
-		</td>
-		<td valign="top" style="padding-bottom: 15px">
-		<p class="note">City/State, or Zipcode</p>
-		</td>
+			class="submit" value="Search"/></td>
 	</tr>
 </table>
 </form>

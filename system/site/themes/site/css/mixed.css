@@ -149,6 +149,7 @@
 #srch-box {
 	border: 1px solid #dedede;
 	padding: 2px;
+	background: #DDEEF6;
 }
 #srch-box input, #srch-box select {
 	width: auto;
@@ -186,6 +187,7 @@
 	background: #39D;
 	color: #fff;
 	padding: 5px;
+	margin-top: 10px;
 }
 .alpha-filter a {
 	padding: 0 5px 0 5px;
