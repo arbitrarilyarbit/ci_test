@@ -13,7 +13,7 @@
 				<img class="cart" src="<?php echo base_url();?>system/site/themes/site/img/location.png" width="19" height="31" />
 				<div class="go-cart">
 					<a href="#">Cart</a><br/>
-					<span class="cart-view">New Here? <a href="#">View Cart</a></span>
+					<span class="cart-view">View your shopping cart</span>
 				</div>
 				<div class="clr"></div>
 				
@@ -21,7 +21,10 @@
 				<fieldset id="cart_menu">
 					<form method="post" id="cart" action="">
 						<p>
-							<a id="cart_continue" href="#">Continue Shopping</a>
+							3 Items &rarr; USD 129.99
+						</p>
+						<p>
+							<a id="cart_continue" href="#">View Shopping Cart</a>
 							<input id="cart_checkout" value="Checkout" type="submit">
 						</p>
 					</form>
