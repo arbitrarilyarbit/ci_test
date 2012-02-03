@@ -1,4 +1,4 @@
-<form action="<?php echo base_url();?>pages/listings/" method="get">
+<form action="<?php echo base_url();?>pages/listing" method="get">
 <table style="margin: 0 auto;">
 	<tr>
 		<td><strong>Find:</strong></td>
